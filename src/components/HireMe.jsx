@@ -14,11 +14,12 @@ const HireMe = () => {
       <div className="w-24 h-24 relative">
         <div className="border-t-4 border-blue-500 border-solid rounded-full animate-spin absolute inset-0"></div>
         <a
-          href={`mailto:${personalInfo.email}`}
+          // href={`mailto:${personalInfo.email}`}https://mail.google.com/mail/?view=cm&fs=1&to=your-email@gmail.com
+          href={`https://mail.google.com/mail/?view=cm&fs=1&to=${personalInfo.email}`}
           className="flex justify-center items-center absolute left-4 top-4 green-pink-gradient w-16 h-16 rounded-full"
           target="_blank"
         >
-          <span className="text-white text-[14px] p-1 font-bold">Hire Me</span>
+          <span className="text-white text-[14px] p-1 font-bold">HireMe</span>
         </a>
       </div>
     </motion.div>

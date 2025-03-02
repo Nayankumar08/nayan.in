@@ -35,7 +35,7 @@ import {
 const navigationPaths = {
   home: "/",
   about: "about",
-  work: "work",
+  work: "education",
   contact: "contact",
 };
 
@@ -46,7 +46,7 @@ export const navLinks = [
   },
   {
     id: navigationPaths.work,
-    title: "Work",
+    title: "Education",
   },
   {
     id: navigationPaths.contact,
@@ -86,10 +86,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "React JS",
     icon: reactjs,
@@ -99,10 +99,10 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Angular",
-    icon: angular,
-  },
+  // {
+  //   name: "Angular",
+  //   icon: angular,
+  // },
   {
     name: "Node JS",
     icon: nodejs,
@@ -158,67 +158,64 @@ const experiences = [
 
 const projects = [
   {
-    name: "Aptihealth Web",
-    description:
-      "Revolutionizing mental healthcare in New York State with a user-friendly platform for personalized therapy and progress tracking. Provides the digital gateway to comprehensive behavioral healthcare.",
+    name: "project 1",
+    description: " Description about proeject 1 Shridhar_Rai_Resume.pdf",
     tags: [
       {
-        name: "reactjs",
+        name: "technology1",
         color: "blue-text-gradient",
       },
       {
-        name: "redux",
+        name: "2",
         color: "green-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "if 3 used",
         color: "pink-text-gradient",
       },
     ],
     image: aptihealthWeb,
-    hosted_link: "https://www.aptihealth.com/",
+    hosted_link: "https://www.linkedin.com/in/nayan-kumar-64445128b/",
   },
   {
-    name: "Aptihealth App",
-    description:
-      "Access top-notch mental healthcare anytime, anywhere in New York State with our innovative app. Track your progress, schedule appointments, and connect with expert therapists for personalized care.",
+    name: "project 2",
+    description: "Description about proeject 1 Shridhar_Rai_Resume.pdf",
     tags: [
       {
-        name: "react-native",
+        name: "technology1",
         color: "blue-text-gradient",
       },
       {
-        name: "sendbird",
+        name: "2",
         color: "green-text-gradient",
       },
       {
-        name: "twilio",
+        name: "if 3 used",
         color: "pink-text-gradient",
       },
     ],
     image: aptihealthApp,
-    hosted_link: "https://apps.apple.com/us/app/aptihealth/id1477170874",
+    hosted_link: "https://www.linkedin.com/in/nayan-kumar-64445128b/",
   },
   {
-    name: "Zeal Web",
-    description:
-      "The Zeal website elevates the experience of enjoying activities with trusted friends, fostering connections and making every interaction exciting.",
+    name: "project 2",
+    description: "Description about proeject 1 Shridhar_Rai_Resume.pdf",
     tags: [
       {
-        name: "reactjs",
+        name: "technology1",
         color: "blue-text-gradient",
       },
       {
-        name: "typescript",
+        name: "2",
         color: "green-text-gradient",
       },
       {
-        name: "firebase",
+        name: "if 3 used",
         color: "pink-text-gradient",
       },
     ],
     image: zealWeb,
-    hosted_link: "https://getzeal.co/",
+    hosted_link: "https://www.linkedin.com/in/nayan-kumar-64445128b/",
   },
 ];
 
@@ -263,4 +260,9 @@ export {
   navigationPaths,
   personalInfo,
   publicUrls,
+};
+const EMAILJS_CONFIG = {
+  SERVICE_ID: "service_320d5xm",
+  TEMPLATE_ID: "service_320d5xm",
+  PUBLIC_KEY: "CWcKaWiLZdtNC3JMQ",
 };
