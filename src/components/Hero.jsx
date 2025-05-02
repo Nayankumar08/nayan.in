@@ -3,7 +3,7 @@ import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import { motion } from "framer-motion";
 import { personalInfo } from "../constants";
-import MySelf from "./MySelf"; // Import MySelf component
+// import MySelf from "./MySelf"; // Import MySelf component
 
 
 const Hero = () => {
@@ -33,7 +33,7 @@ const Hero = () => {
       <ComputersCanvas />
 
       {/* Add MySelf Component to the Right Side */}
-      <MySelf />
+      {/* <MySelf /> */}
 
       {/* Scroll Indicator */}
       <div className="absolute xs:bottom-2 bottom-12 w-full flex justify-center items-center">

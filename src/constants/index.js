@@ -158,7 +158,7 @@ const experiences = [
 
 const projects = [
   {
-    name: "project 1",
+    name: "Ro-Customer handler",
     description: " Description about proeject 1 Shridhar_Rai_Resume.pdf",
     tags: [
       {
